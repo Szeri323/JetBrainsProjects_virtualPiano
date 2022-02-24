@@ -1,0 +1,60 @@
+body {
+    background: burlywood;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex: 0 1 auto;
+}
+.white-keys {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: black;*/
+}
+.white-keys kbd {
+    display: block;
+}
+.white-keys .key {
+    width: 10rem;
+    height: 30rem;
+    background: white;
+    border: 5px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black-keys {
+    position: absolute;
+    top: -7rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.black-keys kbd {
+    display: block;
+}
+.black-keys .key {
+    display: inline-block;
+    width: 5rem;
+    height: 15rem;
+    background: black;
+    color: white;
+    border: 5px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#w {
+    flex: 0 1 5rem;
+}
+#e {
+    margin-right: 10rem;
+}
